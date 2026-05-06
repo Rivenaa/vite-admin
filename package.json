@@ -1,0 +1,28 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "vue": "^3.5.32"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "cz-customizable": "^7.5.4",
+    "husky": "^9.1.7",
+    "vite": "^8.0.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
