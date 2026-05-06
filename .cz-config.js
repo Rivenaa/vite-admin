@@ -1,16 +1,16 @@
 module.exports = {
   types: [
     { value: 'feat', name: '✨ feat:     新功能' },
-    { value: 'fix', name: '🐛 fix:      修复' },
+    { value: 'fix', name: '🐛 fix:     修复' },
     { value: 'docs', name: '📝 docs:     文档变更' },
-    { value: 'style', name: '💄 style:    代码格式' },
-    { value: 'refactor', name: '♻️  refactor: 重构' },
+    { value: 'style', name: '💄 style:     代码格式' },
+    { value: 'refactor', name: '♻️  refactor:     重构' },
     { value: 'perf', name: '⚡ perf:     性能优化' },
     { value: 'test', name: '✅ test:     测试相关' },
-    { value: 'chore', name: '🔧 chore:    工具/配置' },
-    { value: 'revert', name: '⏪ revert:   回退' },
-    { value: 'build', name: '📦 build:    打包' },
-    { value: 'ci', name: '👷 ci:       CI/CD' }
+    { value: 'chore', name: '🔧 chore:     工具/配置' },
+    { value: 'revert', name: '⏪ revert:     回退' },
+    { value: 'build', name: '📦 build:     打包' },
+    { value: 'ci', name: '👷 ci:     CI/CD' }
   ],
   messages: {
     type: '选择提交类型:\n',

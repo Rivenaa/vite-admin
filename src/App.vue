@@ -1,7 +1,5 @@
-<script setup>
-import HelloWorld from   './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <template>
-  <HelloWorld />
+  <el-button>I am ElButton</el-button>
 </template>
