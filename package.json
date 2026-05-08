@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview",
-    "prepare": "husky"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.2",
@@ -18,19 +17,12 @@
     "@commitlint/cli": "^20.5.3",
     "@commitlint/config-conventional": "^20.5.3",
     "@vitejs/plugin-vue": "^6.0.6",
-    "cz-customizable": "^7.5.4",
-    "husky": "^9.1.7",
+    "cz-customizable": "^5.5.0",
     "sass": "^1.99.0",
     "sass-embedded": "^1.99.0",
     "unplugin-auto-import": "^21.0.0",
     "unplugin-vue-components": "^32.0.0",
     "vite": "^8.0.10"
-  },
-  "lint-staged": {
-    "src/**/*.{js,vue}": [
-      "eslint --fix",
-      "git add"
-    ]
   },
   "config": {
     "commitizen": {
